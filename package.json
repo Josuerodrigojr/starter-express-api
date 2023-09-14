@@ -1,22 +1,31 @@
 {
-  "name": "starter-express-api",
+  "name": "desafio-backend-modulo-03-sistema-dindin-b2b-t04",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "dadosSensiveis.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+    "url": "git+https://github.com/CleverGnd/desafio-backend-modulo-03-sistema-dindin-b2b-t04.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+    "url": "https://github.com/CleverGnd/desafio-backend-modulo-03-sistema-dindin-b2b-t04/issues"
   },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
+  "homepage": "https://github.com/CleverGnd/desafio-backend-modulo-03-sistema-dindin-b2b-t04#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3"
   }
 }
