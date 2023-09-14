@@ -20,10 +20,11 @@ const rotas = express()
 
 rotas.post("/usuario", cadastrarUsuarios)
 rotas.post("/login", logarUsuario)
+rotas.get("/usuario", detalharUsuario)
 
 rotas.use(verificarUsuarioLogado)
 
-rotas.get("/usuario", detalharUsuario)
+
 rotas.put("/usuario", atualizarUsuario)
 rotas.get("/categoria", listarCategorias)
 rotas.get("/transacao", listarTransacoes)
